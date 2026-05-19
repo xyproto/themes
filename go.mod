@@ -12,7 +12,7 @@ require (
 	github.com/sourcegraph/annotate v0.0.0-20160123013949-f4cad6c6324d // indirect
 	github.com/xyproto/burnfont v1.2.3 // indirect
 	github.com/xyproto/lookslikegoasm v1.0.0 // indirect
-	github.com/xyproto/mode v0.12.6 // indirect
-	golang.org/x/sys v0.43.0 // indirect
-	golang.org/x/term v0.42.0 // indirect
+	github.com/xyproto/mode v0.12.10 // indirect
+	golang.org/x/sys v0.44.0 // indirect
+	golang.org/x/term v0.43.0 // indirect
 )
