@@ -2,11 +2,11 @@ package themes
 
 // ThemeInfo holds metadata about a built-in theme, for use in menus and listings.
 type ThemeInfo struct {
+	New               func() Theme // constructor
+	Register          func()       // registers custom colors (call before New if NeedsRegistration)
 	Name              string       // display name
 	EnvValue          string       // O_THEME value (e.g., "synthwave", "gruvbox")
 	Fallback16        string       // EnvValue of the 16-color fallback, if any
-	New               func() Theme // constructor
-	Register          func()       // registers custom colors (call before New if NeedsRegistration)
 	NeedsRegistration bool         // requires Register() before use
 	Needs256Colors    bool         // requires 256-color or true-color terminal
 	Mono              bool         // monochrome theme (no syntax highlighting)
