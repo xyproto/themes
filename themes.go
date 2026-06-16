@@ -2520,7 +2520,7 @@ func NewBase16Theme(name string, c [16]vt.AttributeColor, bg [16]vt.AttributeCol
 		DebugInstructionsForeground: c[0xA],
 		DebugInstructionsBackground: bg[0x8],
 		BoxUpperEdge:                c[0x5],
-		BoxTitleColor:               vt.Black,
+		BoxTitleColor:               c[0x0],
 		JumpToLetterColor:           c[0x9],
 		NanoHelpForeground:          c[0x0],
 		NanoHelpBackground:          bg[0x4],
