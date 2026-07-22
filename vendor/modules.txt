@@ -7,23 +7,23 @@ github.com/xyproto/burnfont
 # github.com/xyproto/env/v2 v2.5.6
 ## explicit; go 1.19
 github.com/xyproto/env/v2
-# github.com/xyproto/lookslikegoasm v1.0.0
+# github.com/xyproto/lookslikegoasm v1.0.2
 ## explicit; go 1.23.2
 github.com/xyproto/lookslikegoasm
-# github.com/xyproto/mode v0.12.11
+# github.com/xyproto/mode v0.12.14
 ## explicit; go 1.23.2
 github.com/xyproto/mode
-# github.com/xyproto/syntax v1.14.6
+# github.com/xyproto/syntax v1.14.7
 ## explicit; go 1.25.1
 github.com/xyproto/syntax
-# github.com/xyproto/vt v1.9.11
+# github.com/xyproto/vt v1.9.13
 ## explicit; go 1.25.1
 github.com/xyproto/vt
-# golang.org/x/sys v0.46.0
+# golang.org/x/sys v0.47.0
 ## explicit; go 1.25.0
 golang.org/x/sys/plan9
 golang.org/x/sys/unix
 golang.org/x/sys/windows
-# golang.org/x/term v0.44.0
+# golang.org/x/term v0.45.0
 ## explicit; go 1.25.0
 golang.org/x/term

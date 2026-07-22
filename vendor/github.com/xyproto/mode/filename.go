@@ -41,6 +41,8 @@ func Detect(filename string) Mode {
 		mode = Subversion
 	case baseFilename == "fstab":
 		mode = FSTAB
+	case baseFilename == "SKILL.md":
+		mode = Skill
 	case ext == ".vimrc" || ext == ".vim" || ext == ".nvim":
 		mode = Vim
 	case ext == ".mk" || ext == ".mak" || ext == ".Mak" || strings.HasPrefix(baseFilename, "Make") || strings.HasPrefix(baseFilename, "makefile") || baseFilename == "GNUmakefile":
@@ -113,8 +115,6 @@ func Detect(filename string) Mode {
 			mode = C
 		case ".c3":
 			mode = C3
-		case ".v67":
-			mode = Vibe67
 		case ".cb", ".cbl", ".cob", ".cby", ".cobol":
 			mode = COBOL
 		case ".cm":
@@ -299,6 +299,8 @@ func Detect(filename string) Mode {
 			mode = Terra
 		case ".te":
 			mode = PolicyLanguage
+		case ".tim":
+			mode = Tim
 		case ".tl":
 			mode = Teal
 		case ".ts", ".tsx":
