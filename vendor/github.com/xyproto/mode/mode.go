@@ -49,6 +49,8 @@ const (
 	Faust                 // Faust
 	Fortran77             // Fortran 77
 	Fortran90             // Fortran 90
+	Fennel                // Fennel
+	Fish                  // Fish shell scripts
 	FSharp                // F#
 	FSTAB                 // Filesystem table
 	Garnet                // Garnet
@@ -97,7 +99,9 @@ const (
 	Oak                   // Oak
 	ObjC                  // Objective-C
 	ObjectPascal          // Object Pascal and Delphi
+	Octo                  // Octo, CHIP-8 assembly
 	Odin                  // Odin
+	Oil                   // Oil shell scripts (YSH)
 	Ollama                // For Modelfiles
 	Perl                  // Perl
 	PHP                   // PHP
@@ -132,6 +136,7 @@ const (
 	TOML                  // TOML configuration
 	TypeScript            // TypeScript
 	V                     // V programming language
+	VersionChecker        // .nvchecker.toml / pkgctl version check
 	Vim                   // Vim or NeoVim configuration, or .vim scripts
 	WGSL                  // WebGPU Shading Language
 	WordGrinder           // WordGrinder
@@ -229,6 +234,10 @@ func (mode Mode) String() string {
 		return "Erlang"
 	case Faust:
 		return "Faust"
+	case Fish:
+		return "Fish"
+	case Fennel:
+		return "Fennel"
 	case Fortran77:
 		return "Fortran 77"
 	case Fortran90:
@@ -325,12 +334,16 @@ func (mode Mode) String() string {
 		return "Oak"
 	case ObjC:
 		return "Objective-C"
+	case Oil:
+		return "Oil"
 	case Ollama:
 		return "Ollama"
 	case ObjectPascal:
 		return "Pas"
 	case OCaml:
 		return "Ocaml"
+	case Octo:
+		return "Octo"
 	case Odin:
 		return "Odin"
 	case Perl:
@@ -405,6 +418,8 @@ func (mode Mode) String() string {
 		return "WordGrinder"
 	case V:
 		return "V"
+	case VersionChecker:
+		return "Version checker"
 	case XML:
 		return "XML"
 	case YAML:

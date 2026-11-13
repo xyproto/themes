@@ -97,6 +97,9 @@ var (
 	// OCaml
 	ocamlWords = []string{"and", "as", "assert", "asr", "begin", "class", "constraint", "do", "done", "downto", "else", "end", "exception", "external", "false", "for", "fun", "function", "functor", "if", "in", "include", "inherit", "initializer", "land", "lazy", "let", "lor", "lsl", "lsr", "lxor", "match", "method", "mod", "module", "mutable", "new", "nonrec", "object", "of", "open", "or", "private", "rec", "sig", "struct", "then", "to", "true", "try", "type", "val", "virtual", "when", "while", "with"}
 
+	// Octo (CHIP-8, SUPER-CHIP and XO-CHIP assembly)
+	octoWords = []string{"again", "alias", "assert", "audio", "bcd", "begin", "bighex", "breakpoint", "buzzer", "byte", "call", "calc", "clear", "const", "delay", "else", "end", "exit", "hex", "hires", "i", "if", "jump", "jump0", "key", "load", "loadflags", "long", "loop", "lores", "macro", "monitor", "native", "next", "org", "pitch", "plane", "pointer", "proto", "random", "return", "save", "saveflags", "scroll-down", "scroll-left", "scroll-right", "scroll-up", "sprite", "stringmode", "then", "unpack", "while"}
+
 	// Odin
 	odinWords = []string{"align_of", "auto_cast", "bit_field", "bit_set", "break", "case", "cast", "const", "context", "continue", "defer", "distinct", "do", "do", "dynamic", "else", "enum", "fallthrough", "for", "foreign", "if", "import", "in", "inline", "macro", "map", "no_inline", "notin", "offset_of", "opaque", "package", "proc", "return", "size_of", "struct", "switch", "transmute", "type_of", "union", "using", "when"}
 
@@ -129,6 +132,12 @@ var (
 
 	// Swift
 	swiftWords = []string{"associatedtype", "class", "deinit", "enum", "extension", "fileprivate", "func", "import", "init", "inout", "internal", "let", "open", "operator", "private", "precedencegroup", "protocol", "public", "rethrows", "static", "struct", "subscript", "typealias", "var", "break", "case", "catch", "continue", "default", "defer", "do", "else", "fallthrough", "for", "guard", "if", "in", "repeat", "return", "throw", "switch", "where", "while", "Any", "as", "await", "catch", "false", "is", "nil", "rethrows", "self", "Self", "super", "throw", "throws", "true", "try", "#available", "#colorLiteral", "#elseif", "#else", "#endif", "#fileLiteral", "#if", "#imageLiteral", "#keyPath", "#selector", "#sourceLocation", "associativity", "convenience", "didSet", "dynamic", "final", "get", "indirect", "infix", "lazy", "left", "mutating", "none", "nonmutating", "optional", "override", "postfix", "precedence", "prefix", "Protocol", "required", "right", "set", "some", "Type", "unowned", "weak", "willSet"}
+
+	// Fish shell
+	fishWords = []string{"and", "argparse", "begin", "break", "builtin", "case", "command", "contains", "continue", "else", "end", "exec", "for", "function", "functions", "if", "in", "not", "or", "read", "return", "set", "set_color", "status", "string", "switch", "test", "while"}
+
+	// Oil shell (YSH)
+	oilWords = []string{"and", "break", "call", "case", "const", "continue", "elif", "else", "false", "for", "func", "if", "in", "is", "not", "null", "or", "proc", "return", "setglobal", "setvar", "shopt", "source", "true", "try", "use", "var", "while"}
 
 	// For Shell, Make and Just
 	shellWords = []string{"--force", "-f", "checkout", "configure", "dd", "do", "doas", "done", "endif", "exec", "fdisk", "for", "gdisk", "ifeq", "ifneq", "in", "mv", "rm", "rmdir", "setopt", "su", "sudo", "while"}
